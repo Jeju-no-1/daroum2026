@@ -183,12 +183,13 @@
   .jeju-btn:hover .jeju-label { background: rgba(241,236,223,1); color: var(--ink); }
 
 /* 다로움의 이야기: 기존 섹션과 독립적으로 관리 */
-#first-story{padding:100px 24px;scroll-margin-top:75px;background:#f7f1e6;color:#29392f}
+[id="first-story"],[id="jeju-first-story"]{padding:100px 24px;scroll-margin-top:75px;background:#f7f1e6;color:#29392f}
 .daroum-story-wrap{max-width:1040px;margin:0 auto}.daroum-story-kicker{font-size:12px;letter-spacing:2px;color:#a34b30;margin-bottom:18px}.daroum-story-title{font-family:Georgia,'Nanum Myeongjo',serif;font-size:clamp(40px,6vw,70px);line-height:1.12;font-weight:400;margin:0 0 24px}.daroum-story-subtitle{font-family:'Nanum Myeongjo',serif;font-size:clamp(19px,2.5vw,26px);line-height:1.8;margin:0 0 18px}.daroum-story-copy{max-width:660px;font-size:15px;line-height:2;color:#575f51}.daroum-story-introduction{margin-top:36px;padding:32px 0;border-top:1px solid #d0d4c4;border-bottom:1px solid #d0d4c4}.daroum-story-introduction h3{font-family:Georgia,'Nanum Myeongjo',serif;font-size:25px;font-weight:400;line-height:1.6;margin:0 0 22px}.daroum-story-introduction p{max-width:760px;font-size:15px;line-height:2.1;color:#575f51;margin:0 0 18px}.daroum-story-introduction p:last-child{margin-bottom:0}.daroum-story-introduction strong{font-weight:600;color:#29392f}.daroum-story-themes{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:30px}.daroum-story-themes h4{font-size:16px;margin:0 0 12px;color:#a34b30}.daroum-story-themes p{font-size:14px}.daroum-story-posters{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:42px}.daroum-story-posters figure{margin:0}.daroum-story-posters img{display:block;width:100%;height:auto;border-radius:3px}.daroum-story-posters figcaption{margin-top:13px;font-size:11px;letter-spacing:1px;color:#656d60}.daroum-story-link{display:inline-block;margin-top:30px;padding:14px 22px;border:1px solid #29392f;font-size:13px}.daroum-story-link:hover{background:#29392f;color:#f7f1e6}.daroum-story-link:focus-visible,.daroum-story-next a:focus-visible{outline:3px solid #a34b30;outline-offset:5px}.daroum-story-next{margin-top:50px;padding-top:28px;border-top:1px solid #d0d4c4;display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.daroum-story-next article{padding:18px 0}.daroum-story-next small{font-family:Georgia,serif;font-size:25px;color:#a34b30}.daroum-story-next h3{font-size:15px;margin:12px 0 8px;font-weight:500}.daroum-story-next p{font-size:12px;line-height:1.8;color:#656d60}.daroum-story-next a:hover{text-decoration:underline}
-@media(max-width:640px){.daroum-story-themes{grid-template-columns:1fr;gap:22px}.daroum-story-introduction h3{font-size:22px}#first-story{padding:65px 24px}.daroum-story-posters{grid-template-columns:1fr;gap:30px}.daroum-story-next{grid-template-columns:1fr;gap:0}.daroum-story-next article+article{border-top:1px solid #d0d4c4}}
+@media(max-width:640px){.daroum-story-themes{grid-template-columns:1fr;gap:22px}.daroum-story-introduction h3{font-size:22px}[id="first-story"],[id="jeju-first-story"]{padding:65px 24px}.daroum-story-posters{grid-template-columns:1fr;gap:30px}.daroum-story-next{grid-template-columns:1fr;gap:0}.daroum-story-next article+article{border-top:1px solid #d0d4c4}}
 
 .daroum-event-under-program{min-width:0;margin-top:12px}.daroum-event-under-program #first-story{padding:36px 28px;border:1px solid #d0d4c4;border-radius:3px}.daroum-event-under-program .daroum-story-title{font-size:clamp(32px,4vw,49px)}.daroum-event-title{display:block;font-family:'Nanum Myeongjo',serif;font-size:21px;line-height:1.6;margin-bottom:14px}.daroum-event-under-program .daroum-story-subtitle{font-size:20px}.daroum-event-under-program .daroum-story-introduction h3{font-size:21px}.daroum-event-under-program .daroum-story-themes{grid-template-columns:1fr;gap:20px}.daroum-event-under-program .daroum-story-next{gap:14px}.daroum-event-under-program .daroum-story-next h3{font-size:13px}.daroum-event-under-program .daroum-story-copy,.daroum-event-under-program .daroum-story-introduction p{font-size:14px}@media(max-width:640px){.daroum-event-under-program #first-story{padding:28px 18px}.daroum-event-under-program .daroum-story-next{grid-template-columns:1fr}}
 .daroum-workshop-date{display:inline-block;padding:10px 15px;margin:0 0 24px;border:1px solid #baac8e;background:#eee5d4;color:#6b412d;font-size:15px;line-height:1.8;font-weight:600}
+.daroum-panel-story-entry{display:flex;flex-direction:column;gap:10px;margin-top:22px;padding:17px 13px;border:1px solid #baac8e;background:#f7f1e6;color:#6b412d;font-size:11px;line-height:1.8}.daroum-panel-story-entry strong{font-family:Georgia,serif;font-size:20px;font-weight:400}.daroum-panel-story-entry:hover{background:#eee5d4}.daroum-panel-story-entry:focus-visible{outline:2px solid #a34b30;outline-offset:4px}.daroum-panel-event{margin-top:48px}.daroum-panel-event #jeju-first-story{padding:36px 26px;border:1px solid #d0d4c4;border-radius:3px;scroll-margin-top:24px}.daroum-panel-event .daroum-story-title{font-size:clamp(34px,5vw,56px)}@media(max-width:640px){.daroum-panel-event #jeju-first-story{padding:30px 18px}}
 </style>
 </head>
 <body class="paper">
@@ -382,8 +383,8 @@ function JejuPanel({ jx, jy, onClose }) {
 
         <hr className="rule my-16"/>
 
-        <div className="section-label">넷이서, 함께</div>
-        <div className="mt-10 grid grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
+        <div className="section-label">셋이서, 함께</div>
+        <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-12">
           {FOUNDERS.map(f => (
             <div key={f.name}>
               <div className="serif text-3xl md:text-4xl ink" style={{fontWeight:500}}>{f.name}</div>
@@ -434,8 +435,19 @@ function JejuPanel({ jx, jy, onClose }) {
               <p className="ko-serif text-[14px] leading-[1.9] mt-3" style={{color:'var(--graphite)'}}>
                 {x.d}
               </p>
+              {x.n === "I." && (
+                <a href="#jeju-first-story" className="daroum-panel-story-entry">
+                  <span>이번 행사 · 다로움의 첫 번째 이야기</span>
+                  <strong>Pages of Time ↘</strong>
+                  <span>2026년 11월 1일 · 첫 워크숍</span>
+                </a>
+              )}
             </div>
           ))}
+        </div>
+
+        <div className="daroum-panel-event">
+          <FirstStory id="jeju-first-story" />
         </div>
 
         <div className="mt-16 flex flex-wrap gap-3">
@@ -925,17 +937,17 @@ function TopBar({ visible }) {
 ===================================================== */
 
 /* 첫 번째 이야기. 다음 이야기 공개 시 아래 목록에 링크를 연결하세요. */
-function FirstStory() {
+function FirstStory({ id = "first-story" }) {
   return (
-    <section id="first-story" aria-labelledby="first-story-title">
+    <section id={id} aria-labelledby={`${id}-title`}>
       <div className="daroum-story-wrap">
         <div className="daroum-story-kicker">인류연대기 · 이번 행사 · 첫 번째 이야기</div>
         <p className="daroum-workshop-date"><time dateTime="2026-11-01">2026년 11월 1일</time> · 다로움의 첫 워크숍</p>
-        <h4 id="first-story-title" className="daroum-story-title"><span className="daroum-event-title">다로움의 첫 번째 이야기</span>Pages of Time</h4>
+        <h4 id={`${id}-title`} className="daroum-story-title"><span className="daroum-event-title">다로움의 첫 번째 이야기</span>Pages of Time</h4>
         <p className="daroum-story-subtitle">역사로 세상을 이해하고,<br/>나눔 속에서 나다움을 발견하다.</p>
         <p className="daroum-story-copy">역사 속 사람들의 이야기에서 출발해, 오늘의 나를 만나고 함께 살아가는 의미를 생각합니다.</p>
-        <div className="daroum-story-introduction" aria-labelledby="story-intro-title">
-          <h3 id="story-intro-title">Pages of Time은 어떤 이야기인가요?</h3>
+        <div className="daroum-story-introduction" aria-labelledby={`${id}-intro-title`}>
+          <h3 id={`${id}-intro-title`}>Pages of Time은 어떤 이야기인가요?</h3>
           <p><strong>Pages of Time은 역사로 세상을 이해하고, 나눔 속에서 나다움을 발견하려는 다로움의 첫 번째 이야기입니다.</strong> 오래전 사람들은 어떻게 살았을까요? 무엇을 믿고, 어떤 선택을 하며, 서로 어떤 영향을 주고받았을까요? 우리는 그들의 이야기를 읽으며 지금 우리가 살아가는 세상을 다시 바라봅니다.</p>
           <p>역사를 읽는 일은 오늘의 나에게 질문하는 일이기도 합니다. “나라면 어떤 선택을 했을까?”, “나는 무엇을 소중하게 생각할까?” 정해진 답을 따라가기보다, 서로의 생각을 듣고 자신의 언어로 표현하며 각자의 시선을 찾아갑니다.</p>
           <p>그리고 배움을 함께 나누는 데까지 이야기를 이어가려 합니다. 서로 다른 생각과 재능을 보태고, 다른 사람에게 필요한 것이 무엇인지 살피는 것. <strong>다로움은 그 과정에서 나다움과 함께함의 의미를 발견하고자 합니다.</strong></p>
@@ -951,7 +963,7 @@ function FirstStory() {
         </div>
         <a className="daroum-story-link" href="https://www.instagram.com/daroum_jeju" target="_blank" rel="noopener noreferrer">Instagram · @daroum_jeju ↗</a>
         <div className="daroum-story-next" aria-label="다로움의 이야기 목록">
-          <article><small>01</small><h3><a href="#first-story">첫 번째 이야기 · Pages of Time</a></h3><p>역사와 나눔에서 나다움을 발견하는 시간.</p></article>
+          <article><small>01</small><h3><a href={`#${id}`}>첫 번째 이야기 · Pages of Time</a></h3><p>역사와 나눔에서 나다움을 발견하는 시간.</p></article>
           <article><small>02</small><h3>두 번째 이야기</h3><p>다음 이야기가 이곳에 이어집니다.</p></article>
           <article><small>03</small><h3>세 번째 이야기</h3><p>새로운 이야기를 위한 다음 페이지.</p></article>
         </div>
